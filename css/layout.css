@@ -325,36 +325,87 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
 .html5 {
   	width: 80%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.css {
+    width: 75%;
+    -moz-animation: css 2s ease;
+    -webkit-animation: css 2s ease;
 }
+.javascript {
+    width: 70%;
+    -moz-animation: css 2s ease;
+    -webkit-animation: css 2s ease;
+}
+.angularjs {
+    width: 85%;
+    -moz-animation: angularjs 2s ease;
+    -webkit-animation: angularjs 2s ease;
+}
+.jquery {
+    width: 50%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
+.java {
+    width: 80%;
+    -moz-animation: java 2s ease;
+    -webkit-animation: java 2s ease;
+}
+.spring {
+    width: 73%;
+    -moz-animation: spring 2s ease;
+    -webkit-animation: spring 2s ease;
+}
+.python {
+    width: 57%;
+    -moz-animation: python 2s ease;
+    -webkit-animation: python 2s ease;
+}
+.c {
+    width: 45%;
+    -moz-animation: c 2s ease;
+    -webkit-animation: c 2s ease;
+}
+.linux {
+    width: 72%;
+    -moz-animation: linux 2s ease;
+    -webkit-animation: linux 2s ease;
+}
+.networking {
+    width: 55%;
+    -moz-animation: networking 2s ease;
+    -webkit-animation: networking 2s ease;
+}
+.android {
+    width: 68%;
+    -moz-animation: android 2s ease;
+    -webkit-animation: android 2s ease;
+}
+.php {
+    width: 59%;
+    -moz-animation: php 2s ease;
+    -webkit-animation: php 2s ease;
+}
+
+
+/*
+                  <li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand css"></span><em>CSS</em></li>
+                  <li><span class="bar-expand javascript"></span><em>Javascript</em></li>
+                  <li><span class="bar-expand angularjs"></span><em>AngularJS</em></li>
+                  <li><span class="bar-expand jquery"></span><em>JQuery</em></li>
+                  <li><span class="bar-expand java"></span><em>Java</em></li>
+                  <li><span class="bar-expand spring"></span><em>Spring</em></li>
+                  <li><span class="bar-expand python"></span><em>Python</em></li>
+                  <li><span class="bar-expand c"></span><em>C</em></li>
+                  <li><span class="bar-expand linux"></span><em>Linux</em></li>
+            <li><span class="bar-expand networking"></span><em>Networking</em></li>
+            <li><span class="bar-expand android"></span><em>Android Development</em></li>
+            <li><span class="bar-expand php"></span><em>PHP</em></li>*/
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
